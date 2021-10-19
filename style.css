@@ -112,6 +112,7 @@ p.tagline-description {
 .stats-preview-card-component 
 .stats-preview-card-component-image {
   background-color: var(--soft-violet);
+  display: flex;
 }
 
 .stats-preview-card-component 
