@@ -5,35 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <title>DWA | Stats Preview Card Component</title>
+  <title>DWA | Stats Preview Card</title>
 </head>
 <body>
   <div class="stats-preview-card-component">
-    <div class="stats-preview-card-image">
-      <picture>
-        <source media="(min-width: 768px)" srcset="./images/image-header-desktop.jpg" alt="people-working-at-workstation" class="image-header-desktop" />
-        <img src="./images/image-header-mobile.jpg" alt="people-working-at-workstation" class="image-header-mobile" />
-      </picture>
-    </div>
-    <div class="stats-preview-card-content">
+    <div class="stats-preview-card-component-content">
       <h1 class="tagline">
-        Get insights that help your business grow.
+        Get <span class="insights">insights</span> that help your business grow.
       </h1>
       <p class="tagline-description">
         Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.
       </p>
       <div class="stats-container">
-        <div class="companies-served">
-          10k+ companies
+        <div class="companies-served stats">
+          <span class="companies-served-data stats-data">
+            10k+
+          </span> 
+          <div class="companies-served-title stats-title">
+            Companies
+          </div>
         </div>
-        <div class="templates-available">
-          314 templates
+        <div class="templates-available stats">
+          <span class="templates-available-data stats-data">
+            314
+          </span> 
+          <div class="queries-served-title stats-title">
+            Templates
+          </div>
         </div>
-        <div class="queries-served">
-          12m+ queries
+        <div class="queries-served stats">
+          <span class="queries-served-data stats-data">
+            12M+
+          </span> 
+          <div class="queries-served-title stats-title">
+            Queries
+          </div>
         </div>
       </div> 
+    </div>
+    <div class="stats-preview-card-component-image">
+      <img src="./images/image-header-desktop.jpg" alt="people-working-at-workstation" class="image-header-desktop" />
+      <img src="./images/image-header-mobile.jpg" alt="people-working-at-workstation" class="image-header-mobile" />
     </div>
   </div>
 </body>
