@@ -19,9 +19,15 @@
 body {
   font-family: 'Inter', sans-serif;
   font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--very-dark-blue);
+  color: white;
 }
 
 p {
   font-size: 15px;
   line-height: 1.6;
+}
+
+.stats-preview-card-component {
+  background-color: var(--dark-desaturated-blue);
 }
